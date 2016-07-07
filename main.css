@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 img {
   max-width: 400px;
@@ -6,5 +9,19 @@ img {
 .red_outline {
   border: 1px solid red;
   padding: 10px;
+  margin: 10px;
 
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
 }
