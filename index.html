@@ -12,6 +12,58 @@
         <li>Contact</li>
       </ul>
     </header>
+
+
+    <form action="">
+     <fieldset>
+        <label  class="hidden" for="firstname">First Name</label>
+        <input type="text" name="firstname" placeholder="First Name" id="firstname" required>
+        
+        <label class="hidden" for="email">Email</label>
+        <input type="email" placeholder="Your Email" name="email" id="email" required>  
+        
+        <label class="hidden" for="number">Phone</label>
+        <input type="number" placeholder="65" min="18" max="120" name="age" id="age" required>
+      </fieldset>
+      <label class="hidden" for="bio">Bio</label>
+      <textarea placeholder="A little about yourself." id="bio"> </textarea>
+
+      <label class="hidden" for="favcolor">Favorite Color</label>
+      <input type="color" name="favcolor" value="#00FF00" id="favcolor">
+
+      <label class="hidden" for="website">Website</label>
+      <input type="url" name="website" id="website" placeholder="http://nothing.com" required>
+
+      <input type="text" name="country" value="USA" readonly>
+
+
+      <fieldset>
+      <label for="peanuts">Peanuts</label>
+        <input type="checkbox" id="peanuts" value="peanuts" name="peanuts">
+      <label for="shellfish">Shellfish</label>
+        <input type="checkbox" id="shellfish" value="shellfish" name="shellfish">
+      <label for="soy">Soy</label>
+        <input type="checkbox" id="soy" value="soy" name="soy">
+      <label for="kiwis">Kiwis</label>
+        <input type="checkbox" id="kiwis" value="kiwis" name="kiwis">
+      </fieldset>
+
+
+      <fieldset>
+        <label for="red">Red</label>
+        <input type="radio" name="rgb" value="red" id="red"> 
+        
+        <label for="green">Green</label>
+        <input type="radio" name="rgb" value="green" id="green">      
+        
+        <label for="blue">Blue</label>
+        <input type="radio" name="rgb" value="blue" id="blue">
+      </fieldset>
+      <input type="submit" name="submit" value="Other Text">
+
+    </form>
+    <br />
+
     <article id="article2">
     <header>This is a Header</header>
       <section class="red_outline">
